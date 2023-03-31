@@ -6,6 +6,7 @@
         <div>
           <div>
             <h1>Setup Guide for making your boring Terminal Interesting!</h1>
+                       <img src="./screenshot.png" alt="screenshot"/>
             <p>
 Ah, so you want to add some magic to your command line? Well, you've come to the right place my friend!
             </p>
