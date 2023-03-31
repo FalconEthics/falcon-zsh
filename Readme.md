@@ -131,3 +131,5 @@ And voila! Your command line is now looking stylish, colorful, and powerful. You
       </div>
   </div>
 </div>
+
+`go through the tmux config file and .zshrc file in this repo for all the keybinding and shortcuts`
