@@ -60,7 +60,14 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
               than the default Bash shell. Install OhMyZsh ~a plugin manager for zsh shell by using the following
               command:
             </p>
-            <pre><div ><div ><span>bash</span></div><div ><code >sh -c <span >"<span >$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>"</span>
+            <p>
+            But first make sure zsh is installed `sudo dnf install zsh`
+            </p>
+            <p>Now make zsh your primary shell:</p>
+<pre><div ><div ></div><div ><code >chsh -s $(which zsh)
+</code></div></div></pre>
+<p>if chsh not installed it will prompt you to install it! press y</p>
+            <pre><div ><div ><span></span></div><div ><code >sh -c <span >"<span >$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>"</span>
 </code></div></div></pre>
             <p>
               Next, install the <code>colorls</code> gem, which adds color and
@@ -94,10 +101,6 @@ git <span >clone</span> https://github.com/zsh-users/zsh-autosuggestions <span >
 <p>Now source it and follow the power10k's prompted steps accordingly</p>
 <pre><div ><div ></div><div ><code >source .zshrc 
 </code></div></div></pre>
-<p>Now make zsh your primary shell:</p>
-<pre><div ><div ></div><div ><code >chsh -s $(which zsh)
-</code></div></div></pre>
-<p>if chsh not installed it will prompt you to install it! press y</p>
             <h2>TPM Setup</h2>
             <p>
               Tmux is a terminal multiplexer that allows you to split your
