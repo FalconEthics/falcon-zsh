@@ -77,7 +77,11 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
                         <pre><div ><div ></div><div ><code >sudo apt-get install ruby ruby-dev
 </code></div></div></pre>
 <p>For fedora:</p>
-<pre><div ><div ></div><div ><code >sudo dnf install gem ruby-devel
+<pre><div ><div ></div><div ><code >sudo dnf install ruby
+</code></div></div></pre>
+<pre><div ><div ></div><div ><code >sudo dnf install ruby-devel
+</code></div></div></pre>
+<pre><div ><div ></div><div ><code >sudo dnf install gem
 </code></div></div></pre>
 <p>Now install the gem</p>
             <pre><div ><div ></div><div ><code >gem install colorls
