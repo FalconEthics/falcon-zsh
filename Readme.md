@@ -36,7 +36,12 @@ Ah, so you want to add some magic to your command line? Well, you've come to the
             </p>
             <pre><div ><div ></div><div ><code >kitty +kitten themes
 </code></div></div></pre>
-            <p>Select the one you prefer:</p>
+             <p>
+              Now let's make kitty transparent:
+            </p>
+            <pre><div ><div ></div><div ><code>gedit ~/.config/kitty/current-theme.conf
+</code></div></div></pre>
+            <p>add <code>background_opacity 0.8</code></p>
             <p>
               Now, let's change the default font to a more visually appealing
               font. Install the * Hack Nerd * Font by following the instructions on
