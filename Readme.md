@@ -63,8 +63,7 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
             <pre><div ><div ><span></span></div><div ><code >sh -c <span >"<span >$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>"</span>
 </code></div></div></pre>
             <p>
-            But first make sure zsh & fzf is installed <code>sudo dnf install zsh</code> then after the first configuration --> <code>git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install</code>
+            But first make sure zsh & fzf is installed <code>sudo dnf install zsh</code> then after the first configuration --> <code>git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install</code>
             </p>
             <p>Now make zsh your primary shell:</p>
 <pre><div ><div ></div><div ><code >chsh -s $(which zsh)
