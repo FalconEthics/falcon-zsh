@@ -60,15 +60,16 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
               than the default Bash shell. Install OhMyZsh ~a plugin manager for zsh shell by using the following
               command:
             </p>
+            <pre><div ><div ><span></span></div><div ><code >sh -c <span >"<span >$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>"</span>
+</code></div></div></pre>
             <p>
-            But first make sure zsh is installed <code>sudo dnf install zsh</code>
+            But first make sure zsh & fzf is installed <code>sudo dnf install zsh</code> then after the first configuration --> <code>git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install</code>
             </p>
             <p>Now make zsh your primary shell:</p>
 <pre><div ><div ></div><div ><code >chsh -s $(which zsh)
 </code></div></div></pre>
 <p>if chsh not installed it will prompt you to install it! press y</p>
-            <pre><div ><div ><span></span></div><div ><code >sh -c <span >"<span >$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>"</span>
-</code></div></div></pre>
             <p>
               Next, install the <code>colorls</code> gem, which adds color and
               icons to the <code>ls</code> command:
