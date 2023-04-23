@@ -61,7 +61,7 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
               command:
             </p>
             <p>
-            But first make sure zsh is installed `sudo dnf install zsh`
+            But first make sure zsh is installed <code>sudo dnf install zsh</code>
             </p>
             <p>Now make zsh your primary shell:</p>
 <pre><div ><div ></div><div ><code >chsh -s $(which zsh)
