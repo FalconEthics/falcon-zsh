@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,12 +109,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /home/coffee-plz/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-alias browser='microsoft-edge-stable'
 alias ls='colorls'
-alias files='xdg-open .'
-alias software='gnome-software'
-alias calc='gnome-calculator'
-alias github='flatpak run io.github.shiftey.Desktop'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /home/soumikdas/.oh-my-zsh/custom/plugins/zsh-syntax-highligh>
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
