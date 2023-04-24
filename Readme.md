@@ -108,7 +108,7 @@ git <span >clone</span> https://github.com/zsh-users/zsh-autosuggestions <span >
             <pre><div ><div ></div><div ><code ><span >cp</span> .zshrc ~/.zshrc
 </code></div></div></pre>
             <p>
-              Now edit the .zshrc and replace all `coffee-plz` in the file with your unix username (the one that shows up in your terminal)
+              Now edit the .zshrc and replace all occurances of `coffee-plz` in the file with your unix username (the one that shows up in your terminal)
             </p>
 <p>Now source it and follow the power10k's prompted steps accordingly</p>
 <pre><div ><div ></div><div ><code >source .zshrc 
