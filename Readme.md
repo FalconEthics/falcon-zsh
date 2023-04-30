@@ -88,7 +88,7 @@ bold_italic_font Hack Nerd <span >Font</span> Bold Italic
 </code></div></div></pre>
 <pre><div ><div ></div><div ><code >sudo dnf install gem
 </code></div></div></pre>
-<p>Now install the gem</p>
+<p>Now make sure gcc and g++ is installed then install the gem</p>
             <pre><div ><div ></div><div ><code >gem install colorls
 </code></div></div></pre>
             <p>
